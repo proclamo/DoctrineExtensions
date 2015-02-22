@@ -44,7 +44,7 @@ abstract class AbstractTranslation
     /**
      * @var string $foreignKey
      *
-     * @ORM\Column(name="foreign_key", type="string", length=64)
+     * @ORM\Column(name="foreign_key", type="integer", length=64)
      */
     protected $foreignKey;
 
